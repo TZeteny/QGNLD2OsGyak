@@ -15,8 +15,8 @@ int main() {
 	kill(pid, SIGUSR1);
 	kill(pid, SIGUSR2);
 	sleep(2);
-    i++;
-	}
+    	i++;
+     }
     
     kill(pid, SIGTERM);
         
