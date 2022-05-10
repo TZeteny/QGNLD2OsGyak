@@ -24,6 +24,7 @@ int main() {
 	while(true == 0){
 	    signal(SIGUSR1, (void (*)()) handler1);
 	    signal(SIGUSR2, (void (*)()) handler2);
+	    pause();
 	}
     
 	return 0;
