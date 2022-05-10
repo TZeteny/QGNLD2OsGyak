@@ -5,7 +5,7 @@
 int main() {
 	pid_t pid;
 	int sig;
-    int i = 0;
+        int i = 0;
     
 	printf("Give the pid of 29a\n");
 	scanf("%d",&pid);
